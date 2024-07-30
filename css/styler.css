@@ -216,7 +216,9 @@ button[type="submit"]{
 .menu-btn {
   display: inline-block;
   cursor: pointer;
-  position: relative;
+  position: fixed;
+  z-index: 1000;
+  padding: 20px;
   
 }
 
